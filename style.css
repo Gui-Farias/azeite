@@ -66,28 +66,90 @@ header div .menu a{
     margin: 22px 0;
 }
 
-#services{
+.serviceBanner{
     background-image: url('./img/bg01.png');
     background-size: cover;
 }
-#services div{
+.serviceBanner div{
     padding: 5%;
     background-color: rgba(0,0,0,0.6);
 }
-#services h2{
+.serviceBanner h2{
     font-family: "Helvetica", Sans-serif;
     font-size: 40px;
     font-weight: 100;
     text-transform: uppercase;
     color: #00A9FF;
 }
-#services p{
+.serviceBanner p{
     color: #d1d1d1;
     font-size: 23px;
 }
 
+#services .listProdu div{
+    display: inline-flex;
+    margin: 2px 11px;
+}
+
+#services .listProdu div .produBox{
+    width: 288px;
+    height: 288px;
+    display: inline;
+    border: 4px solid #000;
+    background-size: cover;
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#services .listProdu div .produBox div{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    display: inline-block;
+    height: inherit;
+    margin: 0 -11px;
+}
+
+#services .listProdu div .produBox div p{
+    margin-top: 100px;
+}
+
+
+#services .listProdu div .prod1{
+    background-image: url('./img/prot01.jpg');
+}#services .listProdu div .prod2{
+    background-image: url('./img/protPizza01.jpg');
+}#services .listProdu div .prod3{
+    background-image: url('./img/protSandwich01.jpg');
+}#services .listProdu div .prod4{
+    background-image: url('./img/protQuindim01.jpeg');
+}
+
+
+
+#val{
+    padding: 6% 0;
+    background-color: #e5e5e5;
+}
+
+#val h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+}
+.valores div > div{
+    min-width: 222px;
+    padding: 22px 44px;
+    color: #080808;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
 .aboutIcon{
-    background-color: #686868;
+    background-color: #282828;
     padding: 2% 0;
 }
 #about h2{
