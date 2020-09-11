@@ -65,3 +65,48 @@
     color: #d1d1d1;
     font-size: 23px;
 }
+
+.aboutIcon{
+    background-color: #686868;
+    padding: 2% 0;
+}
+#about h2{
+    font-size: 36px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #FFF9F9;
+    margin: 1% 0 5%;
+}
+#about p{
+    font-family: Oswald;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.6;
+    color: #FFF9F9;
+    text-align: initial;    
+}
+
+.iconAbout {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #ffffff;
+    padding: 4%;
+}
+.iconAbout p{
+    margin-bottom: 11%;
+}
+
+footer{
+    background-color: #060303;
+    color: #fff;
+    font-family: Oswald;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    padding: 2% 11%;
+
+}
