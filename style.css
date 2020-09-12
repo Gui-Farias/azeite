@@ -85,10 +85,15 @@ header div .menu a{
     color: #d1d1d1;
     font-size: 23px;
 }
+#services .listProdu {
+    perspective: 1000px;
+}
 
 #services .listProdu div{
     display: inline-flex;
     margin: 2px 11px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
 #services .listProdu div .produBox{
@@ -107,11 +112,7 @@ header div .menu a{
     width: 100%;
     display: inline-block;
     height: inherit;
-    margin: 0 -11px;
-}
-
-#services .listProdu div .produBox div p{
-    margin-top: 100px;
+    margin: 0 -144px;
 }
 
 
@@ -125,6 +126,28 @@ header div .menu a{
     background-image: url('./img/protQuindim01.jpeg');
 }
 
+#services .listProdu div .prod1:hover,
+#services .listProdu div .prod2:hover,
+#services .listProdu div .prod3:hover,
+#services .listProdu div .prod4:hover {
+    transform: rotateX(180deg);
+}
+#services .listProdu div .prod1:hover + #services .listProdu div .prod1 .infoFront,
+#services .listProdu div .prod2:hover + #services .listProdu div .prod2 .infoFront,
+#services .listProdu div .prod3:hover + #services .listProdu div .prod3 .infoFront,
+#services .listProdu div .prod4:hover + #services .listProdu div .prod4 .infoFront {
+    display: none;
+}
+
+.infoBack, .infoFront{
+  position: absolute;
+}
+.infoFront p{
+    margin-top: 100px;
+}
+.infoBack{
+  transform: rotateX(180deg);
+}
 
 
 #val{
