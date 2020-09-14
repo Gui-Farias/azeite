@@ -5,48 +5,6 @@
     text-align: center;
 }
 
-header{
-    background-color: rgba(0,0,0,0.55);
-    position: fixed;
-    width: 100%;
-    color: #fff;
-    z-index: 999;
-}
-header div{
-    display: inline-flex;
-}
-header .menuHeader img{
-    width: 22%;
-}
-header .menuHeader .menu{
-    display: inline-flex;
-    padding: 60px 0 0 300px;
-}
-
-header .menuHeader .menu a{
-    padding: 0 22px;
-    text-decoration: none;
-    color: #fff;
-}
-
-.contatoHeader{
-    width: 100%;
-    display: inline-flex;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #383838;
-    position: relative;
-    padding: 9px 0 9px 60%;
-    font-weight: 600;
-    z-index: 1000;
-}
-.contatoHeader img{
-    padding: 0 33px;
-}
-.contatoHeader a{
-    text-decoration: none;
-    color: #fff;
-}
 
 #oqfazemos{
     letter-spacing: 0px;
@@ -89,7 +47,7 @@ header .menuHeader .menu a{
 }
 
 .serviceBanner{
-    background-image: url('./img/bg01.png');
+    background-image: url('../img/bg01.png');
     background-size: cover;
 }
 .serviceBanner div{
@@ -133,13 +91,13 @@ header .menuHeader .menu a{
 
 
 #services .listProdu div .prod1{
-    background-image: url('./img/prot01.jpg');
+    background-image: url('../img/prot01.jpg');
 }#services .listProdu div .prod2{
-    background-image: url('./img/protPizza01.jpg');
+    background-image: url('../img/protPizza01.jpg');
 }#services .listProdu div .prod3{
-    background-image: url('./img/protSandwich01.jpg');
+    background-image: url('../img/protSandwich01.jpg');
 }#services .listProdu div .prod4{
-    background-image: url('./img/protQuindim01.jpeg');
+    background-image: url('../img/protQuindim01.jpeg');
 }
 
 #services .listProdu div .prod1:hover,

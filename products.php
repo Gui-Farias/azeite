@@ -1,7 +1,7 @@
 <?php include 'head.php' ?>
 <body>
     <?php include 'header.php'?>
-    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="./css/products.css">
     <div style="min-height:188px;background-color:#000">
 
     </div>
