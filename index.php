@@ -7,20 +7,13 @@
     <title>Fidallgo</title>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="./img/logo.png" alt="">
-            <div class="menu">
-                <a href="#banner">INICÍO</a>
-                <a href="#services">PRODUTOS</a>
-                <a href="#oqfazemos">SERVIÇOS</a>
-                <a href="#about">SOBRE NÓS</a>
-                <a href="#contato">CONTATO</a>
-            </div>
-        </div>
-    </header>
+    <?php include 'header.php'?>
     <div>    
         <div style="width: 100%;">
+            <div class="contatoHeader">
+                <p>ES +34 667 813 672</p>
+                <p>info@fidallgo.com</p>
+            </div>
             <div id="banner">
                 <video class="" autoplay="" muted="" playsinline="" loop="" src="./video/bgBanner.mp4" style="width: 100%;"></video>
             </div>
@@ -53,7 +46,6 @@
             <div id="services">
                 <div class="serviceBanner">
                     <div>
-                        <h2>SERVIÇOS</h2>
                         <p>Veja os nossos produtos</p>
                     </div>
                 </div>
@@ -62,8 +54,6 @@
                         
                         <div class="prod1 produBox">
                             <div class="infoFront">
-                                <p>Queijos </br>
-                                    Uma vasta seleção de queijos.</p>
                             </div>
                             <div class="infoBack">
                                 <p>Queijos </br>
@@ -72,48 +62,69 @@
                             </div>
                         </div>
                         <div class="prod2 produBox">
-                            <div>
-                                <p>Pizza e Focaccle</br>
-                                    Tradição, sabor e autencidade dos sabores Italianos.</p>
+                            <div class="infoFront">
+                            </div>
+                            <div class="infoBack">
+                                <p>Pizza e Focaccie </br>
+                                    Conectamos retalhistas e distribuidores aos principais fabricantes de pizza italiana congelada do mundo. Tradição, sabor e autenticidade dos sabores Italianos.</p>
+                                <p class="buttonContact">Contate-nos</p>
                             </div>
                         </div>
                         <div class="prod3 produBox">
-                            <div>
-                                <p>Panini</br>
-                                    Os sanduíches "prontos a comer " são a solução ideal para bares e cafés.</p>
+                            <div class="infoFront">
+                            </div>
+                            <div class="infoBack">
+                                <p>PANINI </br>
+                                    A qualidade dos nossos produtos ricos e apetitosos satisfazem o gosto dos clientes mais exigentes numa variedade de opções e serviços proporcionando comodidade e zero desperdício.</p>
+                                <p class="buttonContact">Contate-nos</p>
                             </div>
                         </div>
                         <div class="prod4 produBox">
-                            <div>
-                                <p>Doçaria tradincional portuguesa</br>
-                                    A pastelarica mais amada e apreciada de Portugual.</p>
+                            <div class="infoFront">
+                            </div>
+                            <div class="infoBack">
+                                <p>Doçaria tradicional portuguesa </br>
+                                    A pastelaria mais amada e apreciada de Portugal, usa apenas ingredientes da mais alta qualidade, para fazer esta obra-prima que é vendida em todo o mundo.</p>
+                                <p class="buttonContact">Contate-nos</p>
                             </div>
                         </div>
                     </div>
                     <div>
                         
                         <div class="prod1 produBox">
-                            <div>
+                            <div class="infoFront">
+                            </div>
+                            <div class="infoBack">
                                 <p>Queijos </br>
-                                    Uma vasta seleção de queijos.</p>
+                                    Uma vasta seleção de queijos. Estamos orgulhosos de oferecer queijos de alta qualidade em diferentes formatos de embalagem e catering.</p>
+                                <p class="buttonContact">Contate-nos</p>
                             </div>
                         </div>
                         <div class="prod2 produBox">
-                            <div>
-                                <p>Pizza e Focaccle</br>
-                                    Tradição, sabor e autencidade dos sabores Italianos.</p>
+                            <div class="infoFront">
+                            </div>
+                            <div class="infoBack">
+                                <p>Pizza e Focaccie </br>
+                                    Conectamos retalhistas e distribuidores aos principais fabricantes de pizza italiana congelada do mundo. Tradição, sabor e autenticidade dos sabores Italianos.</p>
+                                <p class="buttonContact">Contate-nos</p>
                             </div>
                         </div>
                         <div class="prod3 produBox">
-                            <div>
-                                <p>Panini</br>
-                                    Os sanduíches "prontos a comer " são a solução ideal para bares e cafés.</p>
+                            <div class="infoFront">
+                            </div>
+                            <div class="infoBack">
+                                <p>PANINI </br>
+                                    A qualidade dos nossos produtos ricos e apetitosos satisfazem o gosto dos clientes mais exigentes numa variedade de opções e serviços proporcionando comodidade e zero desperdício.</p>
+                                <p class="buttonContact">Contate-nos</p>
                             </div>
                         </div>
                         <div class="prod4 produBox">
-                            <div>
-                                <p>Doçaria tradincional portuguesa</br>
-                                    A pastelarica mais amada e apreciada de Portugual.</p>
+                            <div class="infoFront">
+                            </div>
+                            <div class="infoBack">
+                                <p>Doçaria tradicional portuguesa </br>
+                                    A pastelaria mais amada e apreciada de Portugal, usa apenas ingredientes da mais alta qualidade, para fazer esta obra-prima que é vendida em todo o mundo.</p>
+                                <p class="buttonContact">Contate-nos</p>
                             </div>
                         </div>
                     </div>
@@ -191,28 +202,6 @@
         </div>
         
     </div>
-    <footer>
-        <div style="display: inline-flex;" id="contato">
-            <div>
-                <h1>info@fidallgo.com</h1>
-                <p>
-                    Telf.: +34 667 813 672<br>
-
-                    Endereço: Plaza de España, 13 – 2º Vitoria – Gasteiz<br>
-
-                    Álava, País Vasco – España
-                </p>
-            </div>
-            <div>
-                <p>            
-                    Comprometidos com os nossos clientes, oferecemos o melhor negócio, com um elevado nível de confiança e qualidade de serviço.
-                    Fidallgo é um agente independente com sede em Espanha, que oferece soluções de fornecimento de alimentos, diretamente da fábrica, sem intermediários, Importadores, Distribuidores Horeca, Centrais de compras e Retail.
-                </p>
-            </div>
-        </div>
-        <div>
-
-        </div>
-    </footer>
+    <?php include 'footer.php' ?>
 </body>
 </html>
