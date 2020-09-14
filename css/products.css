@@ -1,0 +1,47 @@
+
+.container div {
+    justify-content: right;
+    background-size: cover;
+    height: 555px;
+    width: 100%;
+    position: relative;
+}
+.container div h1,
+.container div p{
+    color: #fff;
+    text-align: right;
+    margin-right: 20%;
+    padding: 4% 0 0 44%;
+    width: 33%;
+}
+.op01{
+    background-image: url('../img/fotos-queijos.png');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}.op01{
+    background-image: url('../img');
+}

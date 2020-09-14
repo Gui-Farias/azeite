@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./css/header.css">
+
 <header>
         <div class="contatoHeader">
             <img src="./img/IconWhatsapp.png" alt="">

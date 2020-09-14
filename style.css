@@ -222,33 +222,3 @@ header .menuHeader .menu a{
 .iconAbout p{
     margin-bottom: 11%;
 }
-
-footer{
-    background-color: #060303;
-    color: #fff;
-    font-family: Oswald;
-    font-size: 17px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    line-height: 1.6;
-    text-transform: uppercase;
-    padding-top: 22px;
-}
-footer #contato {
-    display: inline-flex;
-    padding: 2% 11%;
-    justify-content: space-between;
-}
-footer #contato div{
-    width: 38%;
-}
-footer #contato div > p,
-footer #contato div > h1{
-    text-align: justify !important;
-}
-footer .direitos{
-    background-color: #1e1e1e;
-    padding: 22px 0;
-    margin-top: 22px;
-    width: 100%;
-}
