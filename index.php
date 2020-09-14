@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Fidallgo</title>
-</head>
+<?php include 'head.php' ?>
 <body>
     <?php include 'header.php'?>
     <div>    
         <div style="width: 100%;">
-            <div class="contatoHeader">
-                <p>ES +34 667 813 672</p>
-                <p>info@fidallgo.com</p>
-            </div>
+
             <div id="banner">
                 <video class="" autoplay="" muted="" playsinline="" loop="" src="./video/bgBanner.mp4" style="width: 100%;"></video>
             </div>

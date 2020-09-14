@@ -1,5 +1,5 @@
 <footer>
-        <div style="display: inline-flex;" id="contato">
+        <div id="contato">
             <div>
                 <h1>info@fidallgo.com</h1>
                 <p>
@@ -7,8 +7,13 @@
 
                     Endereço: Plaza de España, 13 – 2º Vitoria – Gasteiz<br>
 
-                    Álava, País Vasco – España
+                    Álava, País Vasco – España <br />
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/iconLinkedin.png" alt="">
+                    </a>
                 </p>
+                
+                
             </div>
             <div>
                 <p>            
@@ -17,7 +22,7 @@
                 </p>
             </div>
         </div>
-        <div>
-
+        <div class="direitos"> 
+            <p>Todos os direitos reservados</p>
         </div>
     </footer>

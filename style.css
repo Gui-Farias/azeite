@@ -15,32 +15,37 @@ header{
 header div{
     display: inline-flex;
 }
-header div img{
+header .menuHeader img{
     width: 22%;
 }
-header div .menu{
+header .menuHeader .menu{
     display: inline-flex;
     padding: 60px 0 0 300px;
 }
 
-header div .menu a{
+header .menuHeader .menu a{
     padding: 0 22px;
     text-decoration: none;
     color: #fff;
 }
 
 .contatoHeader{
+    width: 100%;
     display: inline-flex;
     text-transform: uppercase;
     color: #fff;
     background-color: #383838;
     position: relative;
-    padding: 11px 0 11px 60%;
+    padding: 9px 0 9px 60%;
     font-weight: 600;
     z-index: 1000;
 }
-.contatoHeader p{
-    padding: 0 44px;
+.contatoHeader img{
+    padding: 0 33px;
+}
+.contatoHeader a{
+    text-decoration: none;
+    color: #fff;
 }
 
 #oqfazemos{
@@ -227,6 +232,23 @@ footer{
     letter-spacing: 0px;
     line-height: 1.6;
     text-transform: uppercase;
+    padding-top: 22px;
+}
+footer #contato {
+    display: inline-flex;
     padding: 2% 11%;
-
+    justify-content: space-between;
+}
+footer #contato div{
+    width: 38%;
+}
+footer #contato div > p,
+footer #contato div > h1{
+    text-align: justify !important;
+}
+footer .direitos{
+    background-color: #1e1e1e;
+    padding: 22px 0;
+    margin-top: 22px;
+    width: 100%;
 }
