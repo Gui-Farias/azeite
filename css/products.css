@@ -6,6 +6,9 @@
     width: 100%;
     position: relative;
 }
+.container div p{
+    font-size: 25px;
+}
 .container div h1,
 .container div p{
     color: #fff;
@@ -14,6 +17,9 @@
     padding: 4% 0 0 44%;
     width: 33%;
 }
+
+
+
 .op01{
     background-image: url('../img/queijos.jpg');
 }.op02{
@@ -45,3 +51,12 @@
 }.op15{
     background-image: url('../img/aperitivos.jpg');
 }
+
+
+@media only screen and (max-width: 666px) {
+    .container div h1,
+    .container div p{
+        padding: 11% 0 0 0 !important;
+        width: 90% !important;
+    }
+  }

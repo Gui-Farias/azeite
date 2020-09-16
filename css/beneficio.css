@@ -1,0 +1,32 @@
+
+
+.beneficioTxt{
+    margin-top: 44pX;
+    color: grey;
+    font-weight: 600;    
+    width: 70%;
+    margin-left: 15%;
+}
+.beneficioTxt p{
+    font-size: 24px;
+}
+
+.beneficioImg{
+    display: inline-flex;
+    margin: 66px 2px;
+}
+
+.beneficioImg div > img:hover {
+    box-shadow: inset 0 0 0.2em #007afd, 0 0 0.6em black;
+    transition: all .4s ease;
+    transform: scale(1.2, 1.2);
+
+}
+
+@media only screen and (max-width: 666px) {
+    .beneficioImg{
+        display: inline-block !important;
+        width: 100% ;
+        margin: 66px 0px !important;
+    }
+  }

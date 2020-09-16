@@ -1,6 +1,7 @@
 <?php include 'head.php' ?>
 <body>
     <?php include 'header.php'?>
+    <link rel="stylesheet" href="./css/beneficio.css">
     <div>    
         <div style="width: 100%;">
 
@@ -21,7 +22,7 @@
                             <p>Distribuidores</p>
                             <img src="./img/iconTransporte.png" alt="">
                         </div>
-                        <div style="margin: 0 111px;">
+                        <div class="iconMid">
                             <p>Canal Ho.Re.Ca</p>
                             <img src="./img/iconCanal.png" alt="">
                         </div>
@@ -136,7 +137,7 @@
             <div id="val">
                 <h2>VALORES</h2>
                 <div class="valores">
-                    <div style="display: inline-flex;">
+                    <div class="valoresBox">
                         <div>
                             <img src="./img/iconMarketing.png" alt="">
                             <p>Qualidade e inovação</p>
@@ -153,7 +154,7 @@
                     <div>
 
                     </div>
-                    <div style="display: inline-flex;">
+                    <div class="valoresBox">
                         <div>
                             <img src="./img/iconSecurity.png" alt="">
                             <p>Segurança</p>
@@ -171,15 +172,34 @@
             </div>
 
             <div>
-                <img src="./img/beneficiosCliente.png" alt="" style="width: 100%;">
+                <div class="beneficioTxt">
+                    <h1>BENEFICIOS DO NOSSO CLIENTE</h1>
+                    <p>Somos iminentes no acompanhamento, conhecimento e relacionamento com produtores alimentícios, para customizar soluções eficentes e aderentes aos nossos clientes.</p>
+                </div>
+                <div class="beneficioImg">
+                    <div>
+                        <img src="./img/beneficio01.png" alt="">
+                        <img src="./img/beneficio02.png" alt="">
+                        <img src="./img/beneficio03.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/bgBeneficio.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/beneficio04.png" alt="">
+                        <img src="./img/beneficio05.png" alt="">
+                        <img src="./img/beneficio06.png" alt="">
+                    </div>
+                </div>
             </div>
+
             <div class="aboutIcon iconAbout">
-                <div style="display: inline-flex;zoom: 1.2;">
+                <div class="aboutBox">
                     <div>
                         <p>Ultracongelado</p>
                         <img src="./img/iconCongelado.png" alt="">
                     </div>
-                    <div style="padding: 0 111px;">
+                    <div class="iconMid">
                         <p>Refrigerado</p>
                         <img src="./img/iconTermo.png" alt="">
                     </div>
@@ -195,3 +215,4 @@
     <?php include 'footer.php' ?>
 </body>
 </html>
+

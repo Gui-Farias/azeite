@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./css/service.css">   
     <div style="min-height:188px;background-color:#000">
 
-
+    </div>
     <div>
         <div>
             <h1>NOSSOS  SERVIÇOS</h1>
@@ -34,36 +34,63 @@
 
         <img src="" alt="">
 
-        <div id="timeline-content">
-            <h1>Timeline</h1>
-
-            <ul class="timeline">
-                <li class="event" data-date="65Million B.C.">
-                <h3>Dinosaurs Roamed the Earth</h3>
-                <p>RAWWWWWWRRR 🐢🦂</p>
-                </li>
-                <li class="event" data-date="2005">
-                <h3>Creative Component Launched</h3>
-                <p>"We can be all things to all people!" 📣</p>    
-                </li>
-                <li class="event" id="date" data-date="2009">
-                <h3>Squareflair was Born</h3>
-                <p></p> <p>"We can be all things to Squarespace users!" 📣</p>    
-                </li>
-                
-                <li class="event" data-date="November 15, 2018">
-                
-                <h3>Squareflair Today</h3>
-                
-                <p>"We design and build from scratch!" 📣<p/> <p>When we say <em><strong>100% custom</strong></em> we mean it— and we build all sites on the Squarespace Developer platform.<p/>
-            <p>Did you know that all of our pixels are hand-forged from the rarest of subpixels grown and harvested in the <em>Nerd Forest</em>? <br>🤜💥🤛</p>
-                
-                <p><strong>Our success can be measured by lives and brands enhanced by 9+ years of 100% Squarespace-focused service!</strong></p>
-                
-            <p><a href="https://www.squareflair.com">squareflair.com</a></p>
-                </li>
-            </ul>
+        <div class="page">
+            <div class="timeline">
+                <div class="timeline__group">
+                    <div class="timeline__box">
+                        <div class="timeline__date">
+                        <span class="timeline__day">1</span>
+                        </div>
+                        <div class="timeline__post">
+                            <div class="timeline__content">
+                                <p>O cliente seleciona o produto ou diz o que pretende. Não há contrato ou taxas envolvidas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline__box">
+                        <div class="timeline__date">
+                            <span class="timeline__day">2</span>
+                        </div>
+                        <div class="timeline__post">
+                            <div class="timeline__content">
+                                <p>Procuramos as melhores ofertas de cada empresa. É preparada uma proposta com preço e enviada ao cliente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline__box">
+                        <div class="timeline__date">
+                        <span class="timeline__day">3</span>
+                        </div>
+                        <div class="timeline__post">
+                            <div class="timeline__content">
+                                <p>Depois da oferta aprovada, realizamos o processo completo de check list, incluindo amostras, negociação de contratos, acordos de logística, conselhos de rotulagem e embalagem e todos os requisitos de pré-venda.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline__box">
+                        <div class="timeline__date">
+                        <span class="timeline__day">4</span>
+                        </div>
+                        <div class="timeline__post">
+                            <div class="timeline__content">
+                                <p>Quando o produto está na loja, fazemos o pós-venda, incluindo reclamações, alterações nos contratos, controle de crédito e protocolos de pagamento para garantir que o fluxo de informações funcione sem problemas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline__box">
+                        <div class="timeline__date">
+                        <span class="timeline__day">5</span>
+                        </div>
+                        <div class="timeline__post">
+                            <div class="timeline__content">
+                                <p>A nossa prioridade é tornar cada produto um sucesso de vendas no mercado. Por esse motivo, a Fidallgo está diretamente conectada ao desempenho dos produtos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
 
         <div>
 

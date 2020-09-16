@@ -28,3 +28,13 @@ footer .direitos{
     margin-top: 22px;
     width: 100%;
 }
+
+@media only screen and (max-width: 666px) {
+    footer #contato{
+        display: inline-block !important;
+        padding: 2% 2% !important;
+    }
+    footer #contato div{
+        width: 100%;
+    }
+  }

@@ -10,11 +10,14 @@ header div{
     display: inline-flex;
 }
 header .menuHeader img{
-    width: 22%;
+    width: 77%;
 }
+.menu .icon {
+    display: none;
+  }
 header .menuHeader .menu{
     display: inline-flex;
-    padding: 60px 0 0 300px;
+    padding: 44px 0 0 300px;
 }
 
 header .menuHeader .menu a{
@@ -40,4 +43,43 @@ header .menuHeader .menu a{
 .contatoHeader a{
     text-decoration: none;
     color: #fff;
+}
+
+
+@media screen and (max-width: 666px) {
+    .contatoHeader{
+        padding: 0 !important;
+    }
+    .contatoHeader img{
+        padding: 0px 11px !important;
+    }
+    .menu{
+        padding:  33px 0 0 44px !important;
+    }
+    header .menuHeader img{
+    width: 55%;
+    }   
+    .menu a{
+      display: none;
+    }
+    .menu a.icon {
+      float: right;
+      display: block;
+    }
+    .menu.responsive {
+        position: relative;
+        padding: 33px 0px 0 0px !important;
+        display: inline-block !important;
+    }
+    .menu.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        margin: 11px 0px;
+    }
 }
