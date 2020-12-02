@@ -7,6 +7,8 @@
 
             <div id="banner">
                 <video class="" autoplay="" muted="" playsinline="" loop="" src="./video/bgBanner.mp4" style="width: 100%;"></video>
+                <h1>ESTÁ PROCURANDO NOVOS FORNECEDORES PARA O SEU NEGÓCIO?</h1>
+                <p>CONTATE A FIDALLDO HOJE.</p>
             </div>
         </div>
         <div >
